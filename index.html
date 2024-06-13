@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta 
+      name="description" 
+      content="Advice generator app solution, 
+      Frontend Mentor Advice generator app solution,
+      Frontend Mentor Advice generator app solution by Monash Perera, 
+      Monash Perera,
+      Monash Tharuka Perera" 
+    />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <main>
+    <div class="advice-card">
+
+      <p class="advice-card__id">
+        Advice # <span class="d-none" id="adviceID"></span>
+      </p>
+      <div class="loader" id="adviceLoader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1 class="d-none advice-card__text" id="adviceTextCon">
+        <span id="adviceText"></span>
+      </h1>
+      <picture class="advice-card_divider">
+        <source media="(min-width: 376px)" srcset="assets/images/pattern-divider-desktop.svg">
+        <img src="assets/images/pattern-divider-mobile.svg" alt="Pattern Divider">
+      </picture>
+      <button class="btn-generate" id="btnGenerate" type="button">
+        <img src="assets/images/icon-dice.svg" alt="Dice" id="iconDice">
+      </button>
+    </div>
+  </main>
+
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"><b>Frontend Mentor</b></a>. 
+      Coded by <a href="https://github.com/monashperera" target="_blank"><b>Monash Perera</b></a>.
+    </div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
