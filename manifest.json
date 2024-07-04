@@ -1,7 +1,7 @@
 {
     "name": "Advice Generator",
     "short_name": "AGApp",
-    "start_url": "https://monashperera.github.io/advice-generator-app/index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#1f2632",
     "orientation": "portrait-primary",
